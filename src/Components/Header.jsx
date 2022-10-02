@@ -9,7 +9,7 @@ const Header = () => {
         padding: "0 80px",
         borderBottom: "1px solid rgb(88,88,88,0.2)",
       }}
-      className="navbar bg-base-100"
+      className="navbar bg-white"
     >
       <div className="navbar-start">
         <div className="dropdown">
