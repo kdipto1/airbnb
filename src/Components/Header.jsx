@@ -68,10 +68,10 @@ const Header = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-3 rounded-badge shadow shadow-slate-200 ">
-          <p className="px-4">Anywhere</p>
+        <ul className="menu menu-horizontal p-2 rounded-badge shadow shadow-slate-200 ">
+          <p className="px-4 font-medium">Anywhere</p>
           <div style={{ border: "1px solid grey" }}></div>
-          <p className="px-4">Any week</p>
+          <p className="px-4 font-medium ">Any week</p>
           <div style={{ border: "1px solid grey" }}></div>
           <p className="px-4" style={{ color: "#717172" }}>
             Add guest
@@ -115,7 +115,10 @@ const Header = () => {
           />
         </svg>
         <a className="   shadow-slate-200 px-7">
-          <div style={{padding:"5px 5px 5px 12px"}} className="flex justify-center items-center rounded-badge shadow">
+          <div
+            style={{ padding: "5px 5px 5px 12px" }}
+            className="flex justify-center items-center rounded-badge shadow"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
