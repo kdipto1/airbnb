@@ -13,7 +13,7 @@ const Cards = () => {
     <section className="container mx-auto mt-5">
       <div className="flex flex-wrap ">
         {places?.map((place) => (
-          <div key={place.id} className="card card-compact m-3 mx-auto hover:translate-x-1 translate-y-1 transition">
+          <div key={place.id} className="card card-compact m-3 mx-auto hover:translate-x-1 hover:translate-y-1 hover:transition">
             <figure className="">
               <img
                 style={{ width: "290.75px", height: "276.2px" }}

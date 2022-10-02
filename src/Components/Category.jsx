@@ -10,10 +10,13 @@ const Category = () => {
       .then((data) => setCategory(data));
   },[])
   return (
-    <section  className="container mx-auto mt-4">
+    <section className="container mx-auto mt-4">
       <div className="flex flex-wrap">
         {category?.map((c) => (
-          <div key={c.id} className="mx-auto m-2">
+          <div
+            key={c.id}
+            className="mx-auto m-2 hover:translate-x-1 hover:translate-y-1 hover:transition"
+          >
             <img
               className="mx-auto"
               style={{ width: "24px" }}
