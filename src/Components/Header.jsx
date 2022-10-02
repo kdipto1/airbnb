@@ -63,7 +63,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">
+        <a className="">
           <img style={{ width: "116px" }} src={airbnb} alt="" />
         </a>
       </div>
